@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" type="module" defer></script>
+    
+    <title>Tamagotchi</title>
+</head>
+<body>
+    <div class="tama-container">
+        <div class="screen">
+    <img src="./img/tama.png"  width="150" height="150">
+    <form>
+        <label for="tname">Tamagotchi name:</label><br>
+        <input type="text" id="tname" name="tname"><br>
+        <label for="ttype">Tamagotchi type:</label><br>
+        <input type="text" id="ttype" name="ttype">
+      </form>
+    </div>
+    Feed me :<p id="hng">5</p>
+    Play with me :<p id="hpn">5</p> 
+    <h3 id="msg"></h3>
+    <div class="buttons">
+    <button>start</button>
+    <button id="feed">feed</button>
+    <button id="play">play</button>
+    </div>
+</div>  
+</body>
+</html>

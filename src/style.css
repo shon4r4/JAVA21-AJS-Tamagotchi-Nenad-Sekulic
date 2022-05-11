@@ -1,0 +1,45 @@
+html body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(172, 184, 200);
+  }
+  .tama-container {
+    width: 600px;
+    height: 800px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 60% 50% 50% / 70% 70% 40% 40%;
+    border: 3px solid #3a359c;
+    margin-top: 30px;
+    background-image: url("../src/img/tamabg2.jpg"); 
+    font-size: 15px;
+  }
+  
+ 
+
+  .tama-container .screen  {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    height: 280px;
+    padding: 1em;
+    border: 3px solid #1c446b;
+    border-radius: 10px;
+
+  }
+
+  .tama-container .buttons {
+    display: inline-block;
+    border-radius: 25%;
+    
+
+
+  
+  }
